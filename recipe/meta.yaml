@@ -1,5 +1,5 @@
 {% set name = "pythresh" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pythresh-{{ version }}.tar.gz
-  sha256: 0f42aff2cada41c63813e51d659ba7b0106a8b93a24f5cb899ec5ac60610b685
+  sha256: 108cbc2ba2911d2c1aae0b771a2747b3121dfb32f779fe96593096f58e94c8e3
 
 build:
   number: 0
@@ -22,7 +22,6 @@ requirements:
   run:
     - matplotlib-base
     - numpy >=1.13
-    - pyclustering
     - pyod
     - python >=3.7
     - scikit-learn >=0.20.0
