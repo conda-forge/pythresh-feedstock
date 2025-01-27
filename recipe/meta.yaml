@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pythresh-{{ version }}.tar.gz
-  sha256: 07ffabec1e10d7daf1febdab231b7db798b1b84bd062f02ad9c503572ce208c6
+  sha256: dd774ce34d783d05177d55a7265a76c6aca3b14b4bb46cc06c09f46287bc55a6
 
 build:
   number: 1
