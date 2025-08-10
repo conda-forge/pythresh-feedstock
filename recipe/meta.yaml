@@ -1,5 +1,5 @@
 {% set name = "pythresh" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pythresh-{{ version }}.tar.gz
-  sha256: dd774ce34d783d05177d55a7265a76c6aca3b14b4bb46cc06c09f46287bc55a6
+  sha256: 81e0aad57f941bf64c1e048dd8c737500331c950bbbb3b556dd25306cc1d4fa6
 
 build:
   number: 1
